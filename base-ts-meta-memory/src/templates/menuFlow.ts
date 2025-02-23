@@ -8,7 +8,7 @@ const menuFlow = addKeyword('EVENTS.ACTION')
                     "text": "Menú de Opciones"
                 },
                 "body": {
-                    "text": "Te voy a dar las opciones que tengo disponibles"
+                    "text": "¿En que te podemos ayudar hoy?"
                 },
                 "footer": {
                     "text": ""
@@ -31,9 +31,34 @@ const menuFlow = addKeyword('EVENTS.ACTION')
                                 },
                                 {
                                     "id": "GS0310973",
-                                    "title": "PDF",
-                                    "description": "Quiero recibir un PDF"
-                                }
+                                    "title": "Alimentos y bebidas",
+                                    "description": "Descarga nuestro menu"
+                                },
+                                {
+                                    "id": "sucursales",
+                                    "title": "📍 Sucursales y horarios:",
+                                    "description": "Quiero conocer las diferentes ubicaciones"
+                                }/*,
+                                {
+                                    "id": "reservaciones",
+                                    "title": "📅 Reservaciones:",
+                                    "description": "Puedes hacer tu reservación aquí"
+                                },
+                                {
+                                    "id": "gruposyeventos",
+                                    "title": "🎉 Paquetes para grupos y eventos",
+                                    "description": "Puedes hacer tu reservación aquí"
+                                },
+                                {
+                                    "id": "promocionesycupones",
+                                    "title": "🎉 Promociones y cupones",
+                                    "description": "Pregunta por los paquetes que tenemos para ti"
+                                },
+                                {
+                                    "id": "quejasysugerencias",
+                                    "title": "🎉 Quejas y sugerencias",
+                                    "description": "Pregunta por los paquetes que tenemos para ti"
+                                }*/
                             ]
                         }
                     ]
