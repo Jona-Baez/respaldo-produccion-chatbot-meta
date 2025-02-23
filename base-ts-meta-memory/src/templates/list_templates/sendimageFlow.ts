@@ -5,4 +5,4 @@ const sendImageFlow = addKeyword("imagen")
         media: "./assets/logo.png"
     })
 
-export { sendImageFlow};
+export { sendImageFlow };

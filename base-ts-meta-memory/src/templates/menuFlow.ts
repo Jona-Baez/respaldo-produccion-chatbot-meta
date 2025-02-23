@@ -1,6 +1,6 @@
 import { addKeyword, EVENTS } from "@builderbot/bot"
 
-const opcionesFlow = addKeyword('EVENTS.ACTION')
+const menuFlow = addKeyword('EVENTS.ACTION')
     .addAction(async (ctx, {provider}) => {
             const list = {
                 "header": {
@@ -28,7 +28,7 @@ const opcionesFlow = addKeyword('EVENTS.ACTION')
                                     "id": "sucursales",
                                     "title": "📍 Sucursales y horarios:",
                                     "description": "Quiero conocer las diferentes ubicaciones"
-                                },
+                                }/*,
                                 {
                                     "id": "audio",
                                     "title": "Audio",
@@ -38,8 +38,7 @@ const opcionesFlow = addKeyword('EVENTS.ACTION')
                                     "id": "imagen",
                                     "title": "Imagen",
                                     "description": "Quiero recibir una imagen"
-                                }                                
-                                /*,
+                                },
                                 {
                                     "id": "reservaciones",
                                     "title": "📅 Reservaciones:",
@@ -68,4 +67,4 @@ const opcionesFlow = addKeyword('EVENTS.ACTION')
             await provider.sendList(`${ctx.from}@s.whatsapp.net`, list)
         })
         
-export { opcionesFlow };
+export { menuFlow };
