@@ -1,16 +1,16 @@
 import { createFlow } from "@builderbot/bot";
 import { mainFlow } from "./mainFlow";
-import { menuFlow } from "./menuFlow";
-import { sendPdfFlow } from "./list_templates/sendPdfFlow";
+import { opcionesFlow } from "./opcionesFlow";
+import { cartaFlow } from "./list_templates/cartaFlow";
+import { sucursalesFlow } from "./list_templates/sucursalesFlow";
 import { sendVoiceFlow } from "./list_templates/sendVoiceFlow";
 import { sendImageFlow } from "./list_templates/sendimageFlow";
-import { sucursalesFlow } from "./list_templates/sucursalesFlow";
 
 export default createFlow ([
     mainFlow,
-    menuFlow,
-    sendImageFlow,
-    sendPdfFlow,
+    opcionesFlow,
+    cartaFlow,
+    sucursalesFlow,
     sendVoiceFlow,
-    sucursalesFlow
+    sendImageFlow
 ]);

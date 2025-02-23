@@ -1,11 +1,11 @@
 import { addKeyword, EVENTS } from "@builderbot/bot"
 
-const menuFlow = addKeyword('EVENTS.ACTION')
+const opcionesFlow = addKeyword('EVENTS.ACTION')
     .addAction(async (ctx, {provider}) => {
             const list = {
                 "header": {
                     "type": "text",
-                    "text": "Menú de Opciones"
+                    "text": "Lista de Opciones"
                 },
                 "body": {
                     "text": "¿En que te podemos ayudar hoy?"
@@ -20,6 +20,16 @@ const menuFlow = addKeyword('EVENTS.ACTION')
                             "title": "Acciones",
                             "rows": [
                                 {
+                                    "id": "carta",
+                                    "title": "😋 Carta de alimentos y bebidas",
+                                    "description": "Descarga nuestra carta"
+                                },
+                                {
+                                    "id": "sucursales",
+                                    "title": "📍 Sucursales y horarios:",
+                                    "description": "Quiero conocer las diferentes ubicaciones"
+                                },
+                                {
                                     "id": "GS0310971",
                                     "title": "Audio",
                                     "description": "Quiero escuchar un audio"
@@ -28,17 +38,8 @@ const menuFlow = addKeyword('EVENTS.ACTION')
                                     "id": "GS0310972",
                                     "title": "Imagen",
                                     "description": "Quiero recibir una imagen"
-                                },
-                                {
-                                    "id": "GS0310973",
-                                    "title": "Alimentos y bebidas",
-                                    "description": "Descarga nuestro menu"
-                                },
-                                {
-                                    "id": "sucursales",
-                                    "title": "📍 Sucursales y horarios:",
-                                    "description": "Quiero conocer las diferentes ubicaciones"
-                                }/*,
+                                }                                
+                                /*,
                                 {
                                     "id": "reservaciones",
                                     "title": "📅 Reservaciones:",
@@ -67,4 +68,4 @@ const menuFlow = addKeyword('EVENTS.ACTION')
             await provider.sendList(`${ctx.from}@s.whatsapp.net`, list)
         })
         
-export { menuFlow };
+export { opcionesFlow };
