@@ -5,10 +5,10 @@ const menuFlow = addKeyword('EVENTS.ACTION')
             const list = {
                 "header": {
                     "type": "text",
-                    "text": "Lista de Opciones"
+                    "text": "Menú de Opciones"
                 },
                 "body": {
-                    "text": "¿En que te podemos ayudar hoy?"
+                    "text": "Te voy a dar las opciones que tengo disponibles"
                 },
                 "footer": {
                     "text": ""
@@ -20,45 +20,20 @@ const menuFlow = addKeyword('EVENTS.ACTION')
                             "title": "Acciones",
                             "rows": [
                                 {
-                                    "id": "carta",
-                                    "title": "😋 Carta de alimentos y bebidas",
-                                    "description": "Descarga nuestra carta"
-                                },
-                                {
-                                    "id": "sucursales",
-                                    "title": "📍 Sucursales y horarios:",
-                                    "description": "Quiero conocer las diferentes ubicaciones"
-                                }/*,
-                                {
-                                    "id": "audio",
+                                    "id": "GS0310971",
                                     "title": "Audio",
                                     "description": "Quiero escuchar un audio"
                                 },
                                 {
-                                    "id": "imagen",
+                                    "id": "GS0310972",
                                     "title": "Imagen",
                                     "description": "Quiero recibir una imagen"
                                 },
                                 {
-                                    "id": "reservaciones",
-                                    "title": "📅 Reservaciones:",
-                                    "description": "Puedes hacer tu reservación aquí"
-                                },
-                                {
-                                    "id": "gruposyeventos",
-                                    "title": "🎉 Paquetes para grupos y eventos",
-                                    "description": "Puedes hacer tu reservación aquí"
-                                },
-                                {
-                                    "id": "promocionesycupones",
-                                    "title": "🎉 Promociones y cupones",
-                                    "description": "Pregunta por los paquetes que tenemos para ti"
-                                },
-                                {
-                                    "id": "quejasysugerencias",
-                                    "title": "🎉 Quejas y sugerencias",
-                                    "description": "Pregunta por los paquetes que tenemos para ti"
-                                }*/
+                                    "id": "GS0310973",
+                                    "title": "PDF",
+                                    "description": "Quiero recibir un PDF"
+                                }
                             ]
                         }
                     ]
