@@ -30,12 +30,12 @@ const opcionesFlow = addKeyword('EVENTS.ACTION')
                                     "description": "Quiero conocer las diferentes ubicaciones"
                                 },
                                 {
-                                    "id": "GS0310971",
+                                    "id": "audio",
                                     "title": "Audio",
                                     "description": "Quiero escuchar un audio"
                                 },
                                 {
-                                    "id": "GS0310972",
+                                    "id": "imagen",
                                     "title": "Imagen",
                                     "description": "Quiero recibir una imagen"
                                 }                                
