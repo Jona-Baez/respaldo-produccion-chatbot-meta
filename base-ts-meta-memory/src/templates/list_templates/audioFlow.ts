@@ -5,11 +5,11 @@ import fs from 'fs';
 const pathA = path.join(process.cwd(), 'assets', 'audio.mp3')
 
 
-const sendVoiceFlow = addKeyword("GS0310971")
+const audioFlow = addKeyword("NB230225audio")
     .addAction(
         async (ctx, ctxFn) => {
             await ctxFn.provider.sendAudio(`${ctx.from}@s.whatsapp.net`, pathA)
     })
 
 
-export { sendVoiceFlow };
+export { audioFlow };

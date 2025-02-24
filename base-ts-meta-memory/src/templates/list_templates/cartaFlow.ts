@@ -1,8 +1,8 @@
 import { addKeyword, EVENTS } from "@builderbot/bot";
 
-const sendPdfFlow = addKeyword("GS0310973")
+const cartaFlow = addKeyword("NB23022501")//Es la palabra que invoca opcion de la lista
     .addAnswer("Te enviamos nuestra carta", {
         media: "./assets/carta.pdf"
     })
 
-export { sendPdfFlow };
+export { cartaFlow };
