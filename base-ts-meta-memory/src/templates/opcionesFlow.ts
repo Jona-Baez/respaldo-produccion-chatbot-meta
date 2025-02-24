@@ -45,17 +45,17 @@ const opcionesFlow = addKeyword('EVENTS.ACTION')
                                     "description": "Aprovecha nuestras ofertas exclusivas"
                                 },
                                 {
-                                    "id": "NB23022508",
+                                    "id": "NB23022506",
                                     "title": "📝 Quejas y sugerencias",
                                     "description": "Tu opinión nos ayuda a mejorar"
                                 },
                                 {
-                                    "id": "NB23022509",
+                                    "id": "NB23022507",
                                     "title": "📋 Contratación",
                                     "description": "Únete a nuestro equipo"
                                 },
                                 {
-                                    "id": "NB23022510",
+                                    "id": "NB23022508",
                                     "title": "💳 Facturación",
                                     "description": "Solicita tu factura aquí"
                                 },
