@@ -8,66 +8,66 @@ const opcionesFlow = addKeyword('EVENTS.ACTION')
                     "text": ""
                 },
                 "body": {
-                    "text": "¿En qué te puedo ayudar?"
+                    "text": "¿En qué te puedo ayudar?"//137 caracteres seguros
                 },
                 "footer": {
                     "text": ""
                 },
                 "action": {
-                    "button": "Ver opciones",
+                    "button": "Ver las 10 opciones",
                     "sections": [
                         {
-                            "title": "Acciones",
+                            "title": "Acciones",//Limitado a 10 acciones
                             "rows": [
                                 {
-                                    "id": "SM23022501",
+                                    "id": "smartia119401",
                                     "title": "🍽️ Alimentos y bebidas",//Limitado a 26 caracteres
-                                    "description": "Descarga nuestra carta"
+                                    "description": "Descarga nuestra carta."//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022502",
+                                    "id": "smartia119402",
                                     "title": "📍 Sucursales y horarios",//Limitado a 26 caracteres
-                                    "description": "Conoce las diferentes ubicaciones"
+                                    "description": "Conoce las diferentes ubicaciones."//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022503",
+                                    "id": "smartia119403",
                                     "title": "📅 Reservaciones",//Limitado a 26 caracteres
-                                    "description": "Reserva tu mesa fácilmente"
+                                    "description": "Reserva tu mesa fácilmente."//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022504",
+                                    "id": "smartia119404",
                                     "title": "🎉 Paquetes y eventos",//Limitado a 26 caracteres
-                                    "description": "Conoce nuestros paquetes especiales"
+                                    "description": "Conoce nuestros paquetes especiales"//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022505",
+                                    "id": "smartia119405",
                                     "title": "🎟️ Promociones y cupones",//Limitado a 26 caracteres
-                                    "description": "Aprovecha nuestras ofertas exclusivas"
+                                    "description": "Aprovecha nuestras ofertas exclusivas"//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022506",
-                                    "title": "📝 Quejas y sugerencias",
-                                    "description": "Tu opinión nos ayuda a mejorar"
+                                    "id": "smartia119406",
+                                    "title": "📝 Quejas y sugerencias",//Limitado a 26 caracteres
+                                    "description": "Tu opinión nos ayuda a mejorar"//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022507",
-                                    "title": "📋 Contratación",
-                                    "description": "Únete a nuestro equipo"
+                                    "id": "smartia119407",
+                                    "title": "📋 Contratación",//Limitado a 26 caracteres
+                                    "description": "Únete a nuestro equipo"//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM23022508",
-                                    "title": "💳 Facturación",
-                                    "description": "Solicita tu factura aquí"
+                                    "id": "smartia119408",
+                                    "title": "💳 Facturación",//Limitado a 26 caracteres
+                                    "description": "Solicita tu factura aquí"//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM230225audio",
+                                    "id": "smartia119409",
                                     "title": "🎵 Audio",//Limitado a 26 caracteres
-                                    "description": "Puedes escuchar un audio"
+                                    "description": "Puedes escuchar un audio"//Limitado a 70 caracteres
                                 },
                                 {
-                                    "id": "SM230225imagen",
+                                    "id": "smartia119410",
                                     "title": "🎥 Imagen",//Limitado a 26 caracteres
-                                    "description": "Tambien recibe una imagen"
+                                    "description": "Tambien recibe una imagen"//Limitado a 70 caracteres
                                 }
                             ]
                         }
